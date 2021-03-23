@@ -1,0 +1,11 @@
+default:
+  email_delivery:
+    delivery_method: :smtp
+    smtp_settings:
+      enable_starttls_auto: true
+      address: localhost.localdomain
+      port: 587
+      authentication: :login
+      domain: "mail.localhost.localdomain"
+      user_name: "root@localhost.localdomain"
+      password: "hoge"
